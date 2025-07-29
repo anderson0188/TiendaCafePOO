@@ -7,9 +7,13 @@ public class TiendaCafe {
         Cafe cafe3 = new Cafe("Café del Huila", "Huila", 39000.0, 4.0f);
 
         // Mostrar información
+
+
+
         cafe1.mostrarInformacion();
         cafe2.mostrarInformacion();
         cafe3.mostrarInformacion();
+
 
         // Calcular y mostrar precio total
         System.out.println("Precio total del café de Nariño: $" + cafe1.calcularPrecioTotal() + " COP");
@@ -17,7 +21,7 @@ public class TiendaCafe {
         System.out.println("Precio total del café del Huila: $" + cafe3.calcularPrecioTotal() + " COP");
         System.out.println("------------------------------------");
 
-        // Actualizar cantidad del café de Nariño
+        // Actualizar cantidad del café
         cafe1.actualizarCantidad(6.5f);
         System.out.println("Información actualizada del café de Nariño:");
         cafe1.mostrarInformacion();
